@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balaji scan centre</title>
+    <link rel="icon" href="1.jpg" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Do+Hyeon&family=Kaisei+Opti&family=Merriweather+Sans&family=Noto+Serif+JP:wght@900&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body
+        {
+            background-color: rgb(214, 93, 0);
+        }
+        .box1
+        {
+            width: 350px;
+            height: 525px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 100px;
+            margin-top: 50px;
+            border-color: black;
+            border-style:solid;
+        }
+        .box2
+        {
+            width: 350px;
+            height: 525px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 600px;
+            margin-top: -531px;
+            border-color: black;
+            border-style:solid;
+        }
+        .logo
+        {
+            margin-top: 5px;
+        }
+        .company_name
+        {
+            text-align: center;
+        }
+        .backc
+        {
+            background-color: DeepPink;
+            padding: 3px;
+            color: white;
+            font-family: 'Kaisei Opti', serif;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+            font-size: 13px;
+            width: 340px;
+            margin-left: 2px;
+        }
+        .photob
+        {
+            background-color: deeppink;
+            width: 130px;
+            height: 165px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #photo
+        {
+            width: 120px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .name
+        {
+            text-align: center;
+            color: deeppink;
+            margin-top: 5px;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 22px;
+        }
+        .designation
+        {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin-top: -1px;
+            font-family: 'Noto Serif JP', serif; 
+            font-weight: 700px;
+            font-size: 22px;
+            font: bolder;
+        }
+        .bloodg
+        {
+            margin-left: 35px;
+            margin-top: 15px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+        }
+        .blood
+        {
+            margin-left: 180px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+            margin-top: -22px;
+        }
+        .dob
+        {
+            margin-left: 35px;
+            margin-top: 10px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+        }
+        .dobd
+        {
+            margin-left: 180px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+            margin-top: -22px;
+        }
+        .con
+        {
+            margin-left: 35px;
+            margin-top: 10px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+        }
+        .cond
+        {
+            margin-left: 180px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 19px;
+            margin-top: -22px;
+        }
+        @media print {
+            *{ color-adjust: exact;  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        
+        }
+        .address
+        {
+            margin-left: 30px;
+            margin-top: 10px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 16px;  
+        }
+        .addressd
+        {
+            margin-left: 110px;
+            margin-top: -18px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 14px;
+        }
+        .addressd2
+        {
+            margin-left: 110px;
+            margin-top: 5px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 14px;
+        }
+        .addressd3
+        {
+            margin-left: 110px;
+            margin-top: 5px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 14px;
+        }
+        .sig
+        {
+            width: 70%;
+            margin-top: 100px;
+        }
+        .signa
+        {
+            margin-top: -35px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 16px;
+            color: rgb(17, 84, 136);
+            font-weight: 800px;
+        }
+        .linee
+        {
+            background-color: deeppink;
+            color: deeppink;
+            height: 5px;
+            font-size: 1px;
+            margin-top: 8px;
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+        }
+        .r1
+        {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 16px;
+            font-weight: 500px;
+            color: rgb(46, 46, 46);
+            margin-top: 8px;
+        }
+        .r2
+        {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 16px;
+            font-weight: 500px;
+            color: rgb(46, 46, 46);
+            margin-top: 8px;
+        }
+        .r3
+        {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 16px;
+            font-weight: 500px;
+            color: rgb(46, 46, 46);
+            margin-top: 8px;
+        }
+        .r4
+        {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 16px;
+            font-weight: 500px;
+            color: rgb(46, 46, 46);
+            margin-top: 8px;
+        }
+        .pri
+        {
+            width: 150px;
+            height: 80px;
+            margin-left: 550px;
+            margin-top: -150px;
+            background-color: rgb(3, 111, 162);
+            border: solid;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 50px;
+        }
+        .pri:hover
+        {
+            background-color: rgb(175, 194, 0);
+        }
+        .box3
+        {
+            margin-left: 600px;
+            margin-top: -250px;
+        }
+
+
+    </style>
+</head>
+<body id="bgs">
+    <div class="box1">
+
+        <center><img class="logo"src="1.jpg" width="140px" alt=""></center>
+
+        <div class="backc">
+            <h1 class="company_name">BALAJI</h1>
+            <h1 class="company_name">SCAN CENTRE</h1>
+        </div>
+
+        <center><div class="photob">
+            <img id="photo"src="photo.jpg" alt="">
+        </div></center>
+
+        <h2 class="name">Jeshwanth A</h2>
+        <h2 class="designation">Web Developer</h2>
+        <h2 class="bloodg">Blood Group</h2>
+        <h2 class="blood">: O+ve</h2>
+        <h2 class="dob">DOB</h2>
+        <h2 class="dobd">: 20-05-2003</h2>
+        <h2 class="con">Contact No</h2>
+        <h2 class="cond">: 8147269627</h2>
+
+        
+        
+    </div>
+    <div class="box2">
+       <center><img class="logo" src="1.jpg" width="140px" alt=""></center> 
+
+       <h2 class="address">Address : </h2>
+       <h2 class="addressd"> #57 Anugraha nilaya 18th cross</h2>
+       <h2 class="addressd2"> Bagalagunte Nagasandra</h2>
+       <h2 class="addressd3"> Bangalore 560 073</h2>
+       <center><img class="sig" src="sig.png" alt=""></center>
+       <center><h2 class="signa">Authorised Signatory</h2></center>
+       <h2 class="linee">line</h2>
+      <center>
+          <h2 class="r1" >#193,194,60-FT Main Road</h2>
+          <h2 class="r2" >MEI Layout (ARCH) Road</h2>
+          <h2 class="r3" >Bagalagunte Bangalore - 560 073</h2>
+          <h2 class="r4" >PH : 080 68449612 , CELL : 9986527164</h2>
+    
+    </center>
+    
+
+    </div>
+    <div class="box3">
+        <button class="pri" onclick="window.print()">print</button>
+    </div>
+    
+    
+</body>
+</html>
